@@ -13,7 +13,7 @@ MANAGERS = ADMINS
 DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-		'NAME': '/home/joonkim/public_html/ego/sqlite3.db',						 # Or path to database file if using sqlite3.
+		'NAME': '/home/joonkim/django-survey/public_html/ego/sqlite3.db',						 # Or path to database file if using sqlite3.
 		'USER': '',						 # Not used with sqlite3.
 		'PASSWORD': '',					 # Not used with sqlite3.
 		'HOST': '',						 # Set to empty string for localhost. Not used with sqlite3.
@@ -50,7 +50,7 @@ USE_L10N = True
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
 # MEDIA_ROOT = os.path.abspath('/../../django/media/')
-MEDIA_ROOT = '/home/joonkim/django/media/'
+MEDIA_ROOT = '/home/joonkim/django-survey/django/media/'
 # MEDIA_ROOT = '/media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
@@ -114,7 +114,7 @@ TEMPLATE_DIRS = (
 	# Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
 	# Always use forward slashes, even on Windows.
 	# Don't forget to use absolute paths, not relative paths.
-	'/home/joonkim/django/templates',
+	'/home/joonkim/django-survey/django/templates',
 	os.path.abspath("/questionnaire/templates/"),
 	os.path.abspath('../../django/templates/')
     # os.path.abspath("/templates/"),

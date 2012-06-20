@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>설문에 참여해 주셔서 감사합니다.</h2>
+
+<!-- [E:] Extrovertedness : {{ e }}  -->
+    Extrovertedness: {{ e|floatformat:1 }}
+    </br>
+    Agreeableness:  {{ a|floatformat:1 }}
+    </br>
+    Conscientiousness:  {{ c|floatformat:1 }}
+    </br>
+    Neuroticism:  {{ n|floatformat:1 }}
+    </br>
+    Openness:  {{ o|floatformat:1 }}
+<!-- </ul> -->
+
+{% endblock %}

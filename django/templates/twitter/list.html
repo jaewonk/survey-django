@@ -2,11 +2,85 @@
 
 {% block content %}
 
-<a href="http://en.wikipedia.org/wiki/Big_Five_personality_traits">Big Five personality traits</a>
-</br>
-Big Five 성격 유형이 무언가요?
-</br>
+<div class="well" style="width: 960px; margin: 100px auto 10px auto">
+    <div id="page-header" style="margin: 10px 10px 30px 10px">
+            <h1><a href="http://en.wikipedia.org/wiki/Big_Five_personality_traits">Big Five Personality Test</a></h1>
+    </div>
 
+<div class="row" style="margin: 0px 0px 0px 0px">
+    <div class="span6" style="margin-left: 0px;">
+        <table class="table">
+             <thead>
+                <tr>
+                    <th>The five factors</th>
+                    <th>Explanation</th>
+                </tr>
+             </thead>
+             <tbody>
+                <tr>
+                    <th style="font-weight: normal; width: 80px;">Conscientiousness</th>
+                    <th style="font-weight: normal">A tendency to show self-discipline, act dutifully</th>
+                </tr>
+                <tr>
+                    <th style="font-weight: normal">Openness to<br/>exprienece</th>
+                    <th style="font-weight: normal">Appreciation for art, emotion, adventure, unusual ideas, curiosity, and variety of experience</th>
+                </tr>
+                <tr>
+                    <th style="font-weight: normal">Extraversion</th>
+                    <th style="font-weight: normal">To seek stimulation in the company of others</th>
+                </tr>
+                <tr>
+                    <th style="font-weight: normal">Agreeableness</th>
+                    <th style="font-weight: normal">Cooperative rather than suspicious towards others</th>
+                </tr>
+                <tr>
+                    <th style="font-weight: normal">Neuroticism</th>
+                    <th style="font-weight: normal">A tendency to experience unpleasant emotions easily</th>
+                </tr>
+             </tbody>
+        </table>
+    </div>
+    <div class="span6" style="margin-left: 20px;">
+        <table class="table">
+             <thead>
+                <tr>
+                    <th>다섯 특성</th>
+                    <th>설명</th>
+                </tr>
+             </thead>
+             <tbody>
+                <tr>
+                    <th style="font-weight: normal; width: 80px;">성실성</th>
+                    <th style="font-weight: normal">목표를 성취하기 위해 성실하게 노력하는 성향 </th>
+                </tr>
+                <tr>
+                    <th style="font-weight: normal">경험에 대한<br/>개방성</th>
+                    <th style="font-weight: normal">상상력과 호기심, 모험심, 예술적 감각 등으로 보수주의에<br/>반대되는 성향 </th>
+                </tr>
+                <tr>
+                    <th style="font-weight: normal">외향성</th>
+                    <th style="font-weight: normal">다른 사람과의 사교, 자극과 활력을 추구하는 성향 </th>
+                </tr>
+                <tr>
+                    <th style="font-weight: normal">친화성 </th>
+                    <th style="font-weight: normal">타인에게 반항적이지 않은 협조적인 태도를 보이는 성향</th>
+                </tr>
+                <tr>
+                    <th style="font-weight: normal">신경성 </th>
+                    <th style="font-weight: normal">우울함, 불안감과 같은 불쾌한 정서를 쉽게 느끼는 성향</th>
+                </tr>
+             </tbody>
+        </table>
+    </div>
+</div>
+<div class="row" style="margin: 0px 0px 0px 0px">
+    <div class="span6">
+        <a href="http://uilab.kaist.ac.kr:8000/questionnaire/take/2/" class="btn btn-primary btn-large" style="padding: 10px; margin-left: 150px;">Take Big Five test</a>
+    </div>
+    <div class="span6">
+        <a href="http://uilab.kaist.ac.kr:8000/questionnaire/take/4/" class="btn btn-primary btn-large" style="padding: 10px; margin-left: 150px;">테스트 받아보기 </a>
+    </div>
+</div>
 <!-- <h2>Here comes your friends:</h2>
 <ul>
     {% for json in users %}
@@ -27,8 +101,13 @@ Big Five 성격 유형이 무언가요?
     {% endfor %}
 </ul> -->
 </br>
-<a href="http://uilab.kaist.ac.kr:8000/questionnaire/take/2/">BIG FIVE TEST (in English)</a>
-</br>
-<a href="http://uilab.kaist.ac.kr:8000/questionnaire/take/4/">BIG FIVE TEST (한글)</a>
 
+
+
+</div>
+<div style="width: 940px; margin: 10px auto">
+<h6>
+    - Your data will not be shared or distributed to others.
+</h6>
+</div>
 {% endblock %}
